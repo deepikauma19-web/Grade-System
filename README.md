@@ -16,7 +16,7 @@ All three variants use the same grading scale, applied to a mark (or average mar
 | 60 – 69         | D     |
 | Below 60        | E     |
 
-Boundaries are inclusive — exactly 90 is an A, exactly 80 is a B, and so on.
+Boundaries are inclusive say., exactly 90 is an A, exactly 80 is a B, and so on.
 
 ## Requirements
 
