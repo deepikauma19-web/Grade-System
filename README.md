@@ -64,7 +64,7 @@ Invalid input (non-numeric, or outside 0–100) is caught and the user is re-pro
 
 ## Variant 2: Excel Input → Terminal Output
 
-**File:** `grade_from_excel.py`
+**File:** `grade_system_usingfile.py`
 
 Reads student names and subject marks from an Excel file, then prints each student's name, subject marks, average, and grade to the terminal. Nothing is written back to a file — output is terminal-only.
 
@@ -77,7 +77,7 @@ First row = headers, first column = student name. Any number of subject columns 
 | Alice   | 95    | 88      | 91      | 85      |
 | Bob     | 72    | 68      | 75      | 70      |
 
-By default the script looks for `sample_marks.xlsx` in the same folder — edit the `filename` variable in the script to point to a different file.
+By default the script looks for `sample_marks.xlsx` in the same folder
 
 ### Usage
 ```bash
@@ -103,9 +103,9 @@ Alice
 
 ## Variant 3: Excel Input → Excel Output
 
-**File:** `grade_from_excel_full.py`
+**File:** `grade_system_io&opasfile.py`
 
-Same as Variant 2, but also saves the full results — name, subject marks, total, average, and grade — into a new Excel file, in addition to printing to the terminal.
+Same as Variant 2, but also saves the full results: name, subject marks, total, average, and grade into a new Excel file, in addition to printing to the terminal.
 
 ### Input file format
 
@@ -113,7 +113,7 @@ Same as Variant 2 — `sample_marks.xlsx` by default.
 
 ### Usage
 ```bash
-python3 grade_from_excel_full.py
+python3 grade_system_io&opasfile.py
 ```
 
 This will:
