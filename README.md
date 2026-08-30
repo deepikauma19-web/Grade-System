@@ -66,7 +66,7 @@ Invalid input (non-numeric, or outside 0–100) is caught and the user is re-pro
 
 **File:** `grade_system_usingfile.py`
 
-Reads student names and subject marks from an Excel file, then prints each student's name, subject marks, average, and grade to the terminal. Nothing is written back to a file — output is terminal-only.
+Reads student names and subject marks from an Excel file, then prints each student's name, subject marks, average, and grade to the terminal. Nothing is written back to a file viz., output is terminal-only.
 
 ### Input file format
 
@@ -143,7 +143,7 @@ This will:
 
 ## Notes
 
-- Make sure your terminal's current directory is the folder containing the script **and** the Excel file — Python looks for `sample_marks.xlsx` relative to where you run the command from, not where the script file lives.
+- Make sure your terminal's current directory is the folder containing the script **and** the Excel file. Python looks for `sample_marks.xlsx` relative to where you run the command from, not where the script file lives.
 - If you create your own `sample_marks.xlsx` in Excel or Numbers, save it explicitly as `.xlsx` format (Numbers in particular defaults to its own `.numbers` format).
 
 ## License
