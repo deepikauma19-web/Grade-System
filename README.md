@@ -2,7 +2,7 @@
 
 A collection of Python scripts that convert numeric marks into letter grades. The project has three variants, ranging from a simple single-mark terminal tool to a full Excel-in, Excel-out grading pipeline for multiple students and subjects.
 
-Built with pure Python and [`openpyxl`](https://openpyxl.readthedocs.io/) (for the Excel-based variants) — no other frameworks or dependencies.
+Built with pure Python and [`openpyxl`](https://openpyxl.readthedocs.io/) (for the Excel-based variants) viz., no other frameworks or dependencies.
 
 ## Grading Scale
 
